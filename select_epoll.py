@@ -6,7 +6,6 @@ import select
 然后事件类型不可设置，都被设置为了可读事件
 取消也使用unregister
 等待和epoll一致，调用poll方法，返回值只包含了可读socket的文件描述符，不包含event
-
 """
 
 
